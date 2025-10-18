@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>References</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📚</text></svg>">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+        h1 { border-bottom: 2px solid #333; padding-bottom: 10px; }
+        h2 { margin-top: 30px; color: #555; }
+        pre {
+            background: #f4f4f4;
+            border-left: 4px solid #333;
+            padding: 15px;
+            overflow-x: auto;
+        }
+        code {
+            background: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 3px;
+        }
+        img { max-width: 100%; height: auto; border: 1px solid #ddd; }
+        a { color: #0066cc; }
+        a:hover { text-decoration: none; }
+    </style>
+</head>
+<body>
+    <h1>Reference Documentation</h1>
+
+    <h2>Python Code Example</h2>
+    <pre><code>def fibonacci(n):
+    if n <= 1:
+        return n
+    return fibonacci(n-1) + fibonacci(n-2)
+
+# Calculate the 10th Fibonacci number
+result = fibonacci(10)
+print(f"The 10th Fibonacci number is: {result}")</code></pre>
+
+    <h2>Example Image</h2>
+    <img src="towel.jpg" alt="Example diagram">
+    <p><em>Example image from resources folder</em></p>
+
+    <h2>Random Text</h2>
+    <p>
+        The phenomenon of turbulent flow in fluid dynamics presents significant challenges
+        for computational modeling. Unlike laminar flow, where fluid particles move in
+        smooth, parallel layers, turbulent flow exhibits chaotic, stochastic variations
+        in velocity and pressure. The Reynolds number serves as a dimensionless quantity
+        that predicts flow patterns in different fluid flow situations, typically indicating
+        turbulent flow when Re > 4000 for pipe flow. Engineers must account for these
+        complexities when designing systems ranging from aircraft wings to pipeline networks.
+    </p>
+
+    <h2>Beam Deflection Calculation</h2>
+    <p>For a simply supported beam with square cross-section under a central point load:</p>
+    
+    <p><strong>Maximum deflection at center:</strong></p>
+    $$\delta_{max} = \frac{P L^3}{48 E I}$$
+
+    <p><strong>Moment of inertia for square cross-section:</strong></p>
+    $$I = \frac{b^4}{12}$$
+
+    <p><strong>Combined formula:</strong></p>
+    $$\delta_{max} = \frac{P L^3}{48 E} \cdot \frac{12}{b^4} = \frac{P L^3}{4 E b^4}$$
+
+    <p>Where:</p>
+    <ul>
+        <li>\(P\) = central point load (N)</li>
+        <li>\(L\) = beam length (m)</li>
+        <li>\(E\) = Young's modulus (Pa)</li>
+        <li>\(b\) = side length of square cross-section (m)</li>
+        <li>\(\delta_{max}\) = maximum deflection (m)</li>
+    </ul>
+
+    <h2>Useful Links</h2>
+    <ul>
+        <li><a href="https://github.com">GitHub</a> - Version control</li>
+        <li><a href="https://developer.mozilla.org">MDN Web Docs</a> - Web development reference</li>
+        <li><a href="https://stackoverflow.com">Stack Overflow</a> - Programming Q&A</li>
+        <li><a href="https://www.wolframalpha.com">Wolfram Alpha</a> - Computational engine</li>
+        <li><a href="https://www.desmos.com/calculator">Desmos</a> - Graphing calculator</li>
+    </ul>
+
+</body>
+</html>
